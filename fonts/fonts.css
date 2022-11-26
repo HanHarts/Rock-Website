@@ -1,0 +1,46 @@
+/*
+        This font software is the property of Commercial Type.
+
+        You may not modify the font software, use it on another website, or install it on a computer.
+
+        License information is available at http://commercialtype.com/eula
+        For more information please visit Commercial Type at http://commercialtype.com or email us at info[at]commercialtype.com
+
+        Copyright (C) 2021 Schwartzco Inc.
+        License: 2111-IOIUJW     
+*/
+
+
+@font-face {
+  font-family: 'Schnyder S Web';
+  src: url('SchnyderS-Demi-Web.woff2') format('woff2'),
+       url('SchnyderS-Demi-Web.woff') format('woff');
+  font-weight:  400;
+  font-style:   normal;
+  font-stretch: normal;
+}
+
+.SchnyderS-Demi-Web {
+  font-family: 'Schnyder S Web';
+  font-weight:  400;
+  font-style:   normal;
+  font-stretch: normal;
+}
+
+
+@font-face {
+  font-family: 'Schnyder S Web';
+  src: url('SchnyderS-Light-Web.woff2') format('woff2'),
+       url('SchnyderS-Light-Web.woff') format('woff');
+  font-weight:  300;
+  font-style:   normal;
+  font-stretch: normal;
+}
+
+.SchnyderS-Light-Web {
+  font-family: 'Schnyder S Web';
+  font-weight:  300;
+  font-style:   normal;
+  font-stretch: normal;
+}
+

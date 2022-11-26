@@ -1,0 +1,508 @@
+/* Body */
+.container-fluid {
+	overflow: hidden;
+}
+
+body {
+	font-family: 'gt_americalight';
+}
+
+/* Navbar with MegaMenu */
+.navbar {
+	background: #fff;
+	box-shadow: 1px 3px 4px 0 #adadad33;
+}
+
+.navbar-light .navbar-brand {
+	color: #fff;
+}
+
+.navbar-light .navbar-nav .nav-link {
+	color: #000;
+}
+
+.navbar-light .navbar-nav .nav-link:focus,
+.navbar-light .navbar-nav .nav-link:hover {
+	color: red;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  padding:22px 24px 22px 24px;
+	transition: 0.3s;
+	font-size: 0.7em;
+	text-transform: uppercase;
+	font-weight: 500;
+}
+
+.navbar-light .navbar-nav .nav-link:focus,
+.navbar-light .navbar-nav .nav-link:hover {
+	transition: 0.3s;
+}
+
+.navfonts a {
+	font-size: 0.8em;
+}
+
+.navheading .drophead{
+	padding: 20px 0 10px 0;
+}
+
+.navbar-toggler {
+	outline: none;
+}
+
+.dropdown-item:focus,
+.dropdown-item:hover {
+	color: red;
+	text-decoration: none;
+	background-color: #000;
+}
+
+.dropdown-item {
+	color: #fff;
+}
+
+.sm-menu {
+	top: 75%;
+	box-shadow: rgba(173, 173, 173, 0.2) 1px 3px 4px 0;
+}
+
+.megamenu-li {
+	position: static;
+}
+
+.megamenu {
+	position: absolute;
+	width: 100%;
+	left: 0;
+	right: 0;
+	padding: 0 0 0 25px;
+	background-color: #000;
+	overflow: hidden;
+}
+
+.megamenu .drophead {
+	color: #fff;
+}
+
+.megamenu i {
+	width: 20px;
+}
+
+.megamenutext {
+	font-size: 0.7em;
+}
+
+/* Social Media Icons */
+.menu .social-buttons {
+	margin-top: -60px;
+}
+
+/* Brand Logo */
+.logo {
+	max-width: 100%;
+	height: 70px;
+}
+
+/* Title Banner Image */
+.top-banner-image {
+	height: auto;
+	width: 100%;
+}
+
+.bg-image {
+	background-image: url('https://bitbucket.org/ware_com/katas/raw/c65de0035fed8bc9c5d7bbec7de5e6c06bc32a98/rock-homepage/images/banner-image.png');
+	height: 100vh;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.mask {
+	background-color: RGBA(255, 255, 255, 0.60);
+	height: 100vh;
+}
+
+/* Page Headings */
+.page-header {
+	width: 60%;
+	margin: auto;
+}
+
+.top-header-text {
+	padding: 90px 0 90px 0;
+}
+
+.middle-header-text {
+	padding: 90px 0 90px 0;
+}
+
+.bottom-header-text {
+	padding: 90px 0 0 0;
+}
+
+/* Partner Icons Banner */
+.partner-banner-image {
+	height: auto;
+	width: 100%;
+}
+
+/* IMAGES */
+
+/* Megamenu dropdown images */
+.scale {
+	width: 80%;
+	height: 300px;
+	object-fit: cover;
+}
+
+/* Three Sapheres before carousel */
+.saphere {
+	max-width: 100%;
+	height: auto;
+}
+
+/* Quote Image */
+.quote-image {
+	width: 500px;
+	height: 470px;
+	object-fit: cover;
+	object-position: right top;
+	transform: scaleX(-1);
+	-webkit-mask-image: -webkit-gradient(linear, left 60%, left bottom, from(rgba(0, 0, 0, 1)), to(rgba(0, 0, 0, 0)))
+}
+
+.fa-brands:hover {
+	color: red;
+}
+
+/* FontAwesome */
+.fa-solid .red {
+	color: red;
+}
+
+/****** Misc ******/
+.grey-dot {
+	color: grey;
+}
+
+.red-dot {
+	color: red;
+}
+
+.op05 {
+	opacity: 0.5;
+}
+
+.transparent-box {
+	background: RGBA(0, 0, 0, 0.5);
+}
+
+/****** Backgrounds ******/
+
+/* Colors */
+.bg-black {
+	background-color: #000;
+}
+
+.bg-white {
+	background-color: #fff;
+}
+
+/****** Borders ******/
+
+/* Top Border */
+.tp-bdr {
+	border-top: solid;
+	border-width: thin;
+}
+
+.w-bdr1 {
+	border-width: thin;
+}
+
+.grey-bdr {
+	border-color: grey;
+}
+
+/* Right Border */
+.rt-bdr {
+	border-right: solid;
+	border-width: thin;
+}
+
+/******* FONT ********/
+
+/* Colors */
+.white-txt,
+.white-txt a {
+	color: #fff;
+}
+
+.black-txt {
+	color: #000;
+}
+
+.red-txt,
+a .red-txt {
+	color: red;
+}
+
+.grey-txt {
+	color: grey;
+}
+
+/* Align */
+.aln-cent {
+	text-align: center;
+}
+
+/* Transform */
+.txt-upper {
+	text-transform: uppercase;
+}
+
+/* Deecoration */
+.underline a {
+	text-decoration: underline;
+	text-underline-offset: 4px;
+	text-decoration-thickness: 1px;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	color: red;
+}
+
+/* Letter Spacing */
+.txt-sp20 {
+	letter-spacing: 20px;
+}
+
+/* Line Height */
+.ln-hgh-40 {
+	line-height: 40px;
+}
+
+.ln-hgh-1 {
+	line-height: 1;
+}
+
+.ln-hgh-075 {
+	line-height: .75;
+}
+
+/* Font Weight */
+.fw200 {
+	font-weight: 200;
+}
+
+/* Font Size */
+.fs101 {
+	font-size: 1.1em;
+}
+
+.fs1r {
+	font-size: 1rem;
+}
+
+.fs3r {
+	font-size: 3rem;
+}
+
+.fs4r {
+	font-size: 4rem;
+}
+
+.fs6r {
+	font-size: 6rem;
+}
+
+/* Font-Family */
+h2,
+h1,
+.ff1,
+.ff1 a {
+	font-family: 'schnyder_slight';
+}
+
+/******* Padding *******/
+
+/* full padding */
+.pd-10 {
+	padding: 10px;
+}
+
+.pd-20 {
+	padding: 20px;
+}
+
+.pd-40 {
+	padding: 40px;
+}
+
+.pd-50 {
+	padding: 50px;
+}
+
+/* Top Padding */
+.tp-pd-10 {
+	padding-top: 10px;
+}
+
+.tp-pd-15 {
+	padding-top: 15px;
+}
+
+.tp-pd-20 {
+	padding-top: 20px;
+}
+
+.tp-pd-30p {
+	padding-top: 30%;
+}
+
+.tp-pd-30 {
+	padding-top: 30px;
+}
+
+.tp-pd-210 {
+	padding-top: 210px;
+}
+
+/* Bottom Padding */
+.btm-pd-10 {
+	padding-bottom: 10px;
+}
+
+.btm-pd-20 {
+	padding-bottom: 20px;
+}
+
+/* Image Padding */
+.imgpad img {
+	padding-top: 40px;
+	padding-bottom: 10px;
+}
+
+/****** Positions ******/
+.rel {
+	position: relative;
+}
+
+.abs {
+	position: absolute;
+}
+
+/******* Margins ******/
+
+.mg-lf-55 {
+	margin-left: 55%;
+}
+
+/****** Footer ******/
+
+/* Black Footer */
+.blackFooter a {
+	color: #fff;
+}
+
+.blackFooter p {
+	color: #fff;
+}
+
+.blackFooter i {
+	color: #fff;
+}
+
+.blackFooter i:hover {
+	color: red;
+}
+
+
+/* ALT White Footer */
+.whiteFooter a {
+	color: #000;
+}
+
+.whiteFooter p {
+	color: #000;
+}
+
+.whiteFooter .fa-brands {
+	color: #000;
+}
+
+.whiteFooter .fa-brands:hover {
+	color: red;
+}
+
+.whiteFooter i {
+	color: red;
+}
+
+.whiteFooter i:hover {
+	color: #000;
+}
+
+
+/****** Carousel ******/
+.carousel-caption {
+	bottom: 90px;
+}
+
+.carousel-indicators li {
+	width: 70px;
+	height: 36px;
+	border: 1px solid #222;
+}
+
+.carousel-indicators .active {
+	border: 1px solid #ff7474;
+}
+
+.carouselbg {
+	background-image: url('../images/services-bg.png');
+	height: 100vh;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.carousel-control-prev {
+	top: -200px;
+	margin-left: 20%;
+}
+
+.carousel-control-prev-icon {
+	background-color: grey;
+	border-radius: 20px;
+}
+
+.carousel-control-next {
+	top: -200px;
+	margin-right: 20%;
+}
+
+.carousel-control-next-icon {
+	background-color: grey;
+	border-radius: 20px;
+}
+
+/* Carousel Mobile */
+@media screen and (min-width: 320px) and (max-width: 767px) {
+	.carousel-title {
+		font-size: 18px;
+		margin-top: 20px;
+	}
+}
+
+/* Footer Padding Mobile */
+@media screen and (min-width: 320px) and (max-width: 992px) {
+	.tp-pd-210 {
+		padding-top: 20px
+	}
+}
